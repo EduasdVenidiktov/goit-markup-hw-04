@@ -53,17 +53,15 @@ button{
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
-
 .header-container{
     display: flex;
     align-items: center;
     
 }
-
 .header-nav {
     display: flex;
     align-items: center;
-    }
+}
 
 .header-logo {
     display: flex;
@@ -75,40 +73,35 @@ button{
     text-transform: uppercase;
     margin-right: 76px 
 }
-
 .logo-blue{
     color: #4D5AE5;
     }
-
 .logo-black {
     color: #2E2F42;
 }
 
 .header-menu-list {
-    display: flex;
+    display: flex;    
     gap: 40px;
 }
-
 .header-menu-item{
     color: #2E2F42;
     font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-position: relative;
-padding: 24px 0;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    position: relative;
 }
-
-.header-menu-link {
-    }
-
-.header-menu-link:hover,
-.header-menu-link:focus {
+.current {
+    color: #2E2F42;
+}
+.current:hover,
+.current:focus {
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 
-
 }
-.header-menu-link::after{
+.current::after{
     content: '';
     width: 100%;
     height: 4px;
@@ -118,10 +111,9 @@ padding: 24px 0;
     position: absolute; 
     left: 0;
 }
-.header-menu-link:hover::after{
+.current:hover::after{
     background-color: #404BBF;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 
-
 }
 
 .address {
@@ -129,7 +121,6 @@ padding: 24px 0;
     justify-content: flex-end;
     margin-left: auto;
 }
-
 .address-list {
     gap: 40px;
     display: flex;
@@ -142,7 +133,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 font-style: normal;
 }
-
 .address-link{
     color: #434455;
 }
@@ -242,7 +232,6 @@ padding: 24px 100px;
     width: 64px;
     height: 64px;
 }
-
 .features-list{
     display: flex;
     gap: 24px;
@@ -250,7 +239,6 @@ padding: 24px 100px;
 .features-item {
     width: calc((100% - 24px * 3) / 4);
 }
-
 .features-subtitle {
     color: #2E2F42;
     font-size: 20px;
@@ -268,16 +256,13 @@ padding: 24px 100px;
 }
 
 
-
 .third-team {
     background-color: #F4F4FD;
     padding: 120px 0 120px 0;
 }
-
 .team-container{
 background-color: #F4F4FD;
 }
-
 .team-title{
     color: #2E2F42;
 font-size: 36px;
@@ -288,30 +273,24 @@ text-transform: capitalize;
 margin-bottom: 72px;
 text-align: center;
 }
-
 .team-list {
     display: flex;
     margin: 0 auto; 
     gap: 24px; 
 }
-
 .team-item {
 background-color: #FFF;
 border-radius: 0px 0px 4px 4px; 
 width: calc((100% - 72px) / 4);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
-
 .info-team-item {
     text-align: center;
     padding: 32px 0;
 }
-
 .team-item-image {
     background-color: #FFF;
-    /* border-radius: 0px 0px 4px 4px; */
 }
-
 .team-item-title {
     color: #2E2F42;
     text-align: center;
@@ -321,7 +300,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
-
 .team-item-text {
     color: #434455;
     text-align: center;
@@ -330,12 +308,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
 }
-
-/* .team-soc-wrap{
-    display: flex; 
-    justify-content: center;
-    gap: 24px; 
-} */
 .team-soc-list{
     display: flex;
     align-items: center;
@@ -343,7 +315,6 @@ margin-bottom: 8px;
     margin: 0 auto;
     gap: 24px;    
 }
-
 .team-soc-item{    
     width: 40px;
     height: 40px;
@@ -351,13 +322,11 @@ margin-bottom: 8px;
     border-radius: 50%;
     padding: 12px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-
 }
 .team-soc-item:hover,
 .team-soc-item:focus{
     background-color: #404bbf;
     border-radius: 50%;
-
 }
 .team-soc-link{
     width: 100%;
@@ -485,11 +454,10 @@ margin-bottom: 8px;
     background-color: #4d5ae5;    
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-/* 
+
 .portfolio-cover-text:hover{
     transform: translateY(0%);
-} */
-
+}
 
 
 .footer {

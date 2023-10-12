@@ -98,6 +98,7 @@ button{
 }
 
 .header-menu-link .current{
+    font-weight: 500;
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;

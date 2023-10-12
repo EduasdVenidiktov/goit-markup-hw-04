@@ -87,16 +87,9 @@ button{
 .header-menu-item{
     padding: 24px 0;
     position: relative;
-    color: #2E2F42;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .header-menu-link{
-    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-item:hover,
@@ -104,9 +97,12 @@ button{
     color: #404bbf;
 }
 
-.current{
-    
-
+.header-menu-link .current{
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .current:active{
     color: #404BBF;

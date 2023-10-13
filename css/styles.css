@@ -204,6 +204,7 @@ padding-bottom: 24px;
 }
 
 
+
 .second-features {
     background: #FFF;
     padding: 120px 0;
@@ -258,13 +259,13 @@ padding-bottom: 24px;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
-
 .features-item-text {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 
 
 .third-team {
@@ -312,11 +313,6 @@ padding-bottom: 24px;
     margin: 0;
 }
 .team-item {
-/* background-color: #FFF;
-/* border-radius: 0px 0px 4px 4px; 
-width: calc((100% - 72px) / 4); */
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);  */
-
 border-radius: 0px 0px 4px 4px;
 background-color: #FFF;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -342,6 +338,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     color: #2e2f42;
     align-items: center;
     margin: 0;
+    margin-bottom: 8px;
 }
 .team-item-text {
     /* color: #434455;
@@ -378,7 +375,10 @@ margin-bottom: 8px;
     margin-right: 24px;
     border-radius: 0px 0px 4px 4px;
 } */
-.team-soc-item:hover,
+
+.team-soc-item:hover{
+    background-color: #404bbf;
+}
 .team-soc-item:focus{
     background-color: #404bbf;
     border-radius: 50%;
@@ -416,7 +416,6 @@ margin-bottom: 8px;
 .fourth-portfolio {
     padding: 120px 0 120px 0;
 }
-
 .portfolio-container{
     background-color: #FFF;
 }

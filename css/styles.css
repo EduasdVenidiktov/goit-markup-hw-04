@@ -377,9 +377,7 @@ margin-bottom: 8px;
 } */
 
 .team-soc-item:hover{
-    background-color: #404bbf;
     border-radius: 50%;
-
 }
 .team-soc-item:focus{
     background-color: #404bbf;
